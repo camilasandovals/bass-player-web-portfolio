@@ -1,16 +1,51 @@
-body {
-    background-color: rgb(0, 0, 0);
-}
+/* CSS RESET */
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
 
+header {
+    background-color: black;
+    background-image: url(../images/dark\bass1.jpg);
+    padding: 50px
+}
 h1{
-    font-size: 120px;
-    color: white
+    margin: 20px;
+    font-size: 90px;
+    background: -webkit-linear-gradient(#d69386, #d69386,#a846af);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-section.container {
-    display:flex;
-    flex-direction: column;
-    /* flex-direction: column-reverse */
-    justify-content: center
+p{
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #d862e1;
+    opacity: 90%;
+}
+
+button{
+    padding: 10px;
+    margin: 20px;
+    margin-top: 60px;
+    border-radius: 12px;
+    background-color: black;
+    border-color: #d862e1;
+    color: #d862e1;
     
+}
+
+ul {
+    display: flex;
+    color: white;
+    background-color: black;
+    list-style-type: none;
+    padding: 14px 0px 0px 1000px 
+}
+
+li{
+    margin: 20px;
+    color: #d69386;
 }

@@ -2,6 +2,7 @@
   "name": "bass-player",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://milasandovals.github.io/sergiocolmenares",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh": "^2.8.9",
     "gh-pages": "^5.0.0"
   }
 }

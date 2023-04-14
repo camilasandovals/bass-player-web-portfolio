@@ -178,11 +178,11 @@ h2{
   }
 
   .image2 {
-    animation: fadeIn 100s;
-    -webkit-animation: fadeIn 100s;
-    -moz-animation: fadeIn 100s;
-    -o-animation: fadeIn 100s;
-    -ms-animation: fadeIn 100s;
+    animation: fadeIn 12s;
+    -webkit-animation: fadeIn 12s;
+    -moz-animation: fadeIn 12s;
+    -o-animation: fadeIn 12s;
+    -ms-animation: fadeIn 12s;
   }
   
   @keyframes fadeIn {
@@ -209,3 +209,9 @@ h2{
     0% { opacity: 0; }
     100% { opacity: 1; }
   }
+
+  section.container figure img{
+    width: 80%;
+    transform: rotate(15deg);
+    transition: transform 0.5s ease-in-out;
+}

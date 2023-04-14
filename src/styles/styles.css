@@ -168,3 +168,44 @@ h2{
     margin: 30px 0px 3px 0px ;
     opacity: 80%;
   }
+
+  .image {
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 8s;
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
+  }
+
+  .image2 {
+    animation: fadeIn 100s;
+    -webkit-animation: fadeIn 100s;
+    -moz-animation: fadeIn 100s;
+    -o-animation: fadeIn 100s;
+    -ms-animation: fadeIn 100s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }

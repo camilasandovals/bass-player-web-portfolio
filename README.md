@@ -3,7 +3,7 @@
 Project built using HTML and CSS 
 
 # Live demo 
-See demo [here](https://milasandovals.github.io/bass-player/)
+See demo [here](https://milasandovals.github.io/bass-player-web-portfolio/)
 
 # Screenshots
 

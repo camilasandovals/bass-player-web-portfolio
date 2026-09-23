@@ -1,16 +1,17 @@
 {
-  "name": "pawsshop",
+  "name": "bass-player",
   "version": "1.0.0",
-  "description": "Premium dog products e-commerce website",
-  "main": "index.html",
+  "description": "",
+  "homepage": "https://milasandovals.github.io/sergiocolmenares",
+  "main": "index.js",
   "scripts": {
-    "start": "npx serve .",
-    "test": "echo \"No tests specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["dogs", "pets", "ecommerce", "shop"],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "serve": "^14.2.0"
+  "dependencies": {
+    "gh": "^2.8.9",
+    "gh-pages": "^5.0.0"
   }
 }

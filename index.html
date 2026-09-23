@@ -7,441 +7,73 @@
     <link rel="stylesheet" href="./src/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <title>PawsShop - Premium Dog Products</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Orbitron:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Sergio Colmenares</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="nav-brand">
-                <span class="logo-icon">🐾</span>
-                <span class="logo-text">PawsShop</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="nav-actions">
-                <button class="cart-btn" id="cartBtn">
-                    <span class="cart-icon">🛒</span>
-                    <span class="cart-count" id="cartCount">0</span>
-                </button>
-            </div>
-        </nav>
-    </header>
-
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Everything Your <span class="highlight">Best Friend</span> Deserves</h1>
-            <p>Premium quality products for your furry companion. From nutritious food to cozy beds, we have it all.</p>
-            <div class="hero-buttons">
-                <a href="#products" class="btn btn-primary">Shop Now</a>
-                <a href="#about" class="btn btn-secondary">Learn More</a>
-            </div>
+    <nav>
+        <ul>
+            <li> <a href="https://www.youtube.com/@sergiocolmenares9482" target="_blank">Youtube</a></li>
+            <li> <a href="https://soundcloud.com/s-rge-malebr-us" target="_blank">Soundcloud</a></li>
+            <li> <a href="https://open.spotify.com/artist/2f1qj8h9vbhSalwgPEgSrH" target="_blank">Spotify</a></li>
+            <li> <a href="https://www.instagram.com/sergecolmen/" target="_blank">Instagram</a></li>
+            
+        </ul>
+    </nav>
+  <div class="main-container">
+    <div class="flex-container">
+      <div class="info">
+        <h1>HI, I AM A BASS GUITAR PLAYER </h1>    
+        <h3> 12+ years of experience. I seek to have a versatile sound on the bass guitar and explore music through the instrument.</p>    
+        <div class = "button">
+          <button type="submit"><a href="mailto:sergio.colmenares.rengifo@gmail.com">Get in touch</a></button>
         </div>
-        <div class="hero-image">
-            <div class="hero-dog-illustration">🐕</div>
-        </div>
-    </section>
-
-    <section id="categories" class="categories">
-        <div class="container">
-            <h2 class="section-title">Shop by Category</h2>
-            <div class="category-grid">
-                <div class="category-card" data-category="food">
-                    <div class="category-icon">🍖</div>
-                    <h3>Food & Treats</h3>
-                    <p>Nutritious meals and delicious treats</p>
-                </div>
-                <div class="category-card" data-category="toys">
-                    <div class="category-icon">🎾</div>
-                    <h3>Toys</h3>
-                    <p>Fun and engaging playtime essentials</p>
-                </div>
-                <div class="category-card" data-category="beds">
-                    <div class="category-icon">🛏️</div>
-                    <h3>Beds & Furniture</h3>
-                    <p>Comfortable rest for tired paws</p>
-                </div>
-                <div class="category-card" data-category="grooming">
-                    <div class="category-icon">✨</div>
-                    <h3>Grooming</h3>
-                    <p>Keep your pup looking their best</p>
-                </div>
-                <div class="category-card" data-category="collars">
-                    <div class="category-icon">🎀</div>
-                    <h3>Collars & Leashes</h3>
-                    <p>Stylish and safe walking gear</p>
-                </div>
-                <div class="category-card" data-category="health">
-                    <div class="category-icon">💊</div>
-                    <h3>Health & Wellness</h3>
-                    <p>Supplements and care products</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="products" class="products">
-        <div class="container">
-            <h2 class="section-title">Featured Products</h2>
-            <p class="section-subtitle">Hand-picked favorites for your furry friend</p>
-            <div class="product-grid">
-                <div class="product-card">
-                    <div class="product-badge">Best Seller</div>
-                    <div class="product-image">🦴</div>
-                    <div class="product-info">
-                        <h3>Premium Dog Food</h3>
-                        <p class="product-description">All-natural ingredients, grain-free formula</p>
-                        <div class="product-rating">
-                            <span>⭐⭐⭐⭐⭐</span>
-                            <span class="rating-count">(128 reviews)</span>
-                        </div>
-                        <div class="product-footer">
-                            <span class="product-price">$49.99</span>
-                            <button class="add-to-cart" data-product="Premium Dog Food" data-price="49.99">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-badge new">New</div>
-                    <div class="product-image">🧸</div>
-                    <div class="product-info">
-                        <h3>Plush Squeaky Toy</h3>
-                        <p class="product-description">Durable, soft, and squeaky fun</p>
-                        <div class="product-rating">
-                            <span>⭐⭐⭐⭐⭐</span>
-                            <span class="rating-count">(89 reviews)</span>
-                        </div>
-                        <div class="product-footer">
-                            <span class="product-price">$14.99</span>
-                            <button class="add-to-cart" data-product="Plush Squeaky Toy" data-price="14.99">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">🛏️</div>
-                    <div class="product-info">
-                        <h3>Orthopedic Dog Bed</h3>
-                        <p class="product-description">Memory foam for ultimate comfort</p>
-                        <div class="product-rating">
-                            <span>⭐⭐⭐⭐⭐</span>
-                            <span class="rating-count">(256 reviews)</span>
-                        </div>
-                        <div class="product-footer">
-                            <span class="product-price">$89.99</span>
-                            <button class="add-to-cart" data-product="Orthopedic Dog Bed" data-price="89.99">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">🎾</div>
-                    <div class="product-info">
-                        <h3>Tennis Ball Set (6 Pack)</h3>
-                        <p class="product-description">High-bounce, durable tennis balls</p>
-                        <div class="product-rating">
-                            <span>⭐⭐⭐⭐</span>
-                            <span class="rating-count">(67 reviews)</span>
-                        </div>
-                        <div class="product-footer">
-                            <span class="product-price">$12.99</span>
-                            <button class="add-to-cart" data-product="Tennis Ball Set" data-price="12.99">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-badge sale">20% Off</div>
-                    <div class="product-image">🎀</div>
-                    <div class="product-info">
-                        <h3>Designer Collar</h3>
-                        <p class="product-description">Stylish leather with gold buckle</p>
-                        <div class="product-rating">
-                            <span>⭐⭐⭐⭐⭐</span>
-                            <span class="rating-count">(45 reviews)</span>
-                        </div>
-                        <div class="product-footer">
-                            <span class="product-price"><span class="original-price">$34.99</span> $27.99</span>
-                            <button class="add-to-cart" data-product="Designer Collar" data-price="27.99">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">🧴</div>
-                    <div class="product-info">
-                        <h3>Oatmeal Shampoo</h3>
-                        <p class="product-description">Gentle, soothing formula for sensitive skin</p>
-                        <div class="product-rating">
-                            <span>⭐⭐⭐⭐⭐</span>
-                            <span class="rating-count">(112 reviews)</span>
-                        </div>
-                        <div class="product-footer">
-                            <span class="product-price">$18.99</span>
-                            <button class="add-to-cart" data-product="Oatmeal Shampoo" data-price="18.99">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-image">🦷</div>
-                    <div class="product-info">
-                        <h3>Dental Chews (30 Pack)</h3>
-                        <p class="product-description">Cleans teeth and freshens breath</p>
-                        <div class="product-rating">
-                            <span>⭐⭐⭐⭐</span>
-                            <span class="rating-count">(203 reviews)</span>
-                        </div>
-                        <div class="product-footer">
-                            <span class="product-price">$24.99</span>
-                            <button class="add-to-cart" data-product="Dental Chews" data-price="24.99">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product-card">
-                    <div class="product-badge">Popular</div>
-                    <div class="product-image">🦺</div>
-                    <div class="product-info">
-                        <h3>Reflective Harness</h3>
-                        <p class="product-description">Safe walks day and night</p>
-                        <div class="product-rating">
-                            <span>⭐⭐⭐⭐⭐</span>
-                            <span class="rating-count">(178 reviews)</span>
-                        </div>
-                        <div class="product-footer">
-                            <span class="product-price">$39.99</span>
-                            <button class="add-to-cart" data-product="Reflective Harness" data-price="39.99">Add to Cart</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="features">
-        <div class="container">
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">🚚</div>
-                    <h3>Free Shipping</h3>
-                    <p>On orders over $50</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">↩️</div>
-                    <h3>Easy Returns</h3>
-                    <p>30-day return policy</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🔒</div>
-                    <h3>Secure Checkout</h3>
-                    <p>100% protected payments</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">💬</div>
-                    <h3>24/7 Support</h3>
-                    <p>Always here to help</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About PawsShop</h2>
-                    <p>We started PawsShop with a simple mission: to provide the best products for your four-legged family members. Every product in our store is carefully selected and tested to ensure it meets our high standards for quality, safety, and value.</p>
-                    <p>Our team of pet lovers and experts work tirelessly to bring you the latest and greatest in dog care, from innovative toys to nutritious food options. We believe every dog deserves the best, and we're here to make that happen.</p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <span class="stat-number">50K+</span>
-                            <span class="stat-label">Happy Dogs</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">1000+</span>
-                            <span class="stat-label">Products</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">4.9</span>
-                            <span class="stat-label">Avg Rating</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-image">
-                    <div class="about-illustration">🐶❤️</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">What Pet Parents Say</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"My golden retriever absolutely loves the orthopedic bed! He sleeps so much better now. Great quality and fast shipping!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">👩</div>
-                        <div class="author-info">
-                            <span class="author-name">Sarah M.</span>
-                            <span class="author-pet">Mom to Max</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"The dental chews have been a game changer. My vet noticed the improvement in my dog's teeth at his last checkup!"</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">👨</div>
-                        <div class="author-info">
-                            <span class="author-name">James K.</span>
-                            <span class="author-pet">Dad to Bella</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Best dog food we've ever tried. Our picky eater now finishes every meal! Plus the subscription saves us so much time."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">👩</div>
-                        <div class="author-info">
-                            <span class="author-name">Emily R.</span>
-                            <span class="author-pet">Mom to Cooper</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <h2>Join the Pack!</h2>
-                <p>Subscribe to get exclusive deals, pet care tips, and 15% off your first order.</p>
-                <form class="newsletter-form" id="newsletterForm">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit" class="btn btn-primary">Subscribe</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Get in Touch</h2>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <span class="contact-icon">📍</span>
-                        <div>
-                            <h4>Visit Us</h4>
-                            <p>123 Pet Street, Dogtown, CA 90210</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">📞</span>
-                        <div>
-                            <h4>Call Us</h4>
-                            <p>1-800-PAWS-SHOP</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">✉️</span>
-                        <div>
-                            <h4>Email Us</h4>
-                            <p>woof@pawsshop.com</p>
-                        </div>
-                    </div>
-                </div>
-                <form class="contact-form" id="contactForm">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="4" required></textarea>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <span class="logo-icon">🐾</span>
-                        <span class="logo-text">PawsShop</span>
-                    </div>
-                    <p>Premium products for your best friend. Quality you can trust, prices you'll love.</p>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">📘</a>
-                        <a href="#" aria-label="Instagram">📸</a>
-                        <a href="#" aria-label="Twitter">🐦</a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#products">Shop All</a></li>
-                        <li><a href="#categories">Categories</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Customer Service</h4>
-                    <ul>
-                        <li><a href="#">Shipping Info</a></li>
-                        <li><a href="#">Returns & Exchanges</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Track Order</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Policies</h4>
-                    <ul>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Cookie Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; <script>document.write(new Date().getFullYear())</script> PawsShop. All rights reserved. Made with ❤️ for dogs everywhere.</p>
-            </div>
-        </div>
-    </footer>
-
-    <div class="cart-modal" id="cartModal">
-        <div class="cart-modal-content">
-            <div class="cart-header">
-                <h3>Your Cart</h3>
-                <button class="close-cart" id="closeCart">&times;</button>
-            </div>
-            <div class="cart-items" id="cartItems">
-                <p class="empty-cart">Your cart is empty</p>
-            </div>
-            <div class="cart-footer">
-                <div class="cart-total">
-                    <span>Total:</span>
-                    <span id="cartTotal">$0.00</span>
-                </div>
-                <button class="btn btn-primary checkout-btn">Proceed to Checkout</button>
-            </div>
-        </div>
+      </div>
+      <div  class="image">
+        <img src="src/images/header-1.webp" width="550"/>
+      </div>
+  </div>
+  </div>
+  <div class="main-container">
+    <div class="flex-container">
+      <div  class="image2">
+        <img src="src/images/Image004.png" width="550"/>
+      </div>
+      <div class="info">
+        <h2>ABOUT ME </h2>    
+        <h3> Music travels through air to your ears... 
+          The bass, are the lowest end frequency, they require a lot of energy to be created. Additionally, it takes training to understand the musicality of those wobbly frequencies.
+          During this 12 years I've been discovering and looking for all the ways music can be expressed through this simple but mysterious instrument</p>   
+      </div> 
+    </div>
+  </div>
+      <div class="main-container">
+        <main>
+          <h2>GALLERY</h1>
+          <div class="flex-container">
+            <img src="src/images/grid/woi_sandbox082722-131.jpg" width="280" height="300">
+            <img src="src/images/grid/woi_sandbox082722-132.jpg" width="280" height="300">
+            <img src="src/images/grid/woi_sandbox082722-133.jpg" width="280" height="300">
+            <img src="src/images/grid/woi_sandbox082722-134.jpg" width="280" height="300">
+            <img src="src/images/grid/woi_sandbox082722-149.jpg" width="280" height="300">
+            <img src="src/images/grid/woi_sandbox082722-152.jpg" width="280" height="300">
+            <img src="src/images/grid/woi_sandbox082722-156.jpg" width="280" height="300">
+            <img src="src/images/grid/woi_sandbox082722-158.jpg" width="280" height="300">
+          </div>
+        </main>
     </div>
 
-    <script src="./src/scripts/main.js"></script>
+    <div class="main-container-video">
+    
+          <h2>YOUTUBE</h2>    
+          <iframe width="810" height="565" src="https://www.youtube.com/embed/YhgnpDTNG-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+    </div>
+
+    <footer>
+      <small>©<script>document.write(new Date().getFullYear())</script> Camila Sandoval</small>
+    </footer>
+  </div>
+
 </body>
 </html>
